@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_style("whitegrid")
 # %%
-data = pd.read_csv("D:\\Python\\Phase 2\\Projects and Exerises\\Py-DS-ML-Bootcamp-master\\10-Data-Capstone-Projects\\911.csv")
+data = pd.read_csv("911.csv")
 # %%
 # Basic data manupulation
 # %%
