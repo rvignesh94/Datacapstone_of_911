@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 sns.set_style("whitegrid")
 # %%
-data = pd.read_csv("911.csv")
+data = pd.read_csv("D:\\Python\\Phase 2\\Projects and Exerises\\Py-DS-ML-Bootcamp-master\\10-Data-Capstone-Projects\\911.csv")
 # %%
 # Basic data manupulation
 # %%
@@ -50,6 +50,8 @@ data.head()
 dict = {1:'Mon', 2:'Tue', 3:'Wed', 4:'Thu', 5:'Fri', 6:'Sat', 7:'Sun'}
 # %%
 data['Day of Week'] = data['Day of Week'].map(dict)
+# %%
+data.head()
 # %%
 ## ploting count plot for week and month
 # %%
